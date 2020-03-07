@@ -96,7 +96,7 @@ rm -rf /dev/shm/bt_sql_tips.pl
 echo 'True' > /www/server/panel/data/restart.pl
 pkill -9 gunicorn &
 echo "已成功升级到$version企业版";
-echo "为了保障本机安全性，从现在起开心版面板端口为:2020";
+echo "为了保障本机安全性，修改版面板端口为:2020";
 echo "若面板无法访问，请放行安全组，以及关闭机器的防火墙！";
 rm -rf install.sh
 
