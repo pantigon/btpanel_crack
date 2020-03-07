@@ -7,7 +7,7 @@ Usage One Key:
 
 宝塔修改版安装方法：
 
-1  wget -O install.sh https://raw.githubusercontent.com/lhpmain/btpanel_7.1.1/master/install_6.0.sh && bash install.sh
+1  wget -O install.sh https://raw.githubusercontent.com/lhpmain/btpanel_crack/master/bt_5.9/install_6.0.sh && bash install.sh
 
 2 5.9平滑升级到6.0的命令：
    

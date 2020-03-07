@@ -110,7 +110,7 @@ echo '---------------------------------------------';
 echo "Selected download node...";
 get_node_url
 #download_Url=$NODE_URL
-download_Url=https://raw.githubusercontent.com/lhpmain/btpanel_5.9/master
+download_Url=https://raw.githubusercontent.com/lhpmain/btpanel_crack/master/bt_5.9
 echo "Download node: $download_Url";
 echo '---------------------------------------------';
 setup_path=/www
