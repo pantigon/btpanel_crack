@@ -10,6 +10,7 @@ Usage One Key:
 1  wget -O install.sh https://raw.githubusercontent.com/lhpmain/btpanel_7.1.1/master/install_6.0.sh && bash install.sh
 
 2  curl http://download.bt.cn/install/update6.sh|bash
+   curl http://download.bt.cn/install/update_to_6.sh|bash
 
 3  wget -O install.sh https://raw.githubusercontent.com/lhpmain/btpanel_crack/master/bt_7.0.2/update6_pj.sh && bash install.sh
 
