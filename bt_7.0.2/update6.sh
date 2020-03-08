@@ -8,7 +8,7 @@ LANG=en_US.UTF-8
 if [ ! -d /www/server/panel/BTPanel ];then
 	echo "============================================="
 	echo "错误, 5.x不可以使用此命令升级!"
-	echo "5.9平滑升级到6.0的命令：curl http://download.bt.cn/install/update_to_6.sh|bash"
+	echo "5.9平滑升级到6.0的命令：curl https://raw.githubusercontent.com/lhpmain/btpanel_crack/master/bt_7.0.2/update_to_6.sh|bash"
 	exit 0;
 fi
 
@@ -29,7 +29,8 @@ download_Url=$NODE_URL
 #btsb_Url=https://download.ccspump.com/ltd
 btsb_Url=https://raw.githubusercontent.com/lhpmain/btpanel_crack/master/bt_7.0.2
 setup_path=/www
-version=$(curl -Ss --connect-timeout 5 -m 2 http://www.bt.cn/api/panel/get_version)
+# version=$(curl -Ss --connect-timeout 5 -m 2 http://www.bt.cn/api/panel/get_version)
+version=$(curl -Ss --connect-timeout 5 -m 2 https://raw.githubusercontent.com/lhpmain/btpanel_crack/master/bt_7.0.2/get_version.html)
 if [ "$version" = '' ];then
 	version='7.1.1'
 fi
