@@ -37,7 +37,8 @@ fi
 
 chattr -i /www/server/panel/install/public.sh
 chattr -i /www/server/panel/install/check.sh
-wget -T 5 -O /tmp/panel.zip $btsb_Url/install/update/LinuxPanel-7.1.1.zip
+# wget -T 5 -O /tmp/panel.zip $btsb_Url/install/update/LinuxPanel-7.1.1.zip
+wget -T 5 -O /tmp/panel.zip $btsb_Url/install/update/LinuxPanel-7.0.2.zip
 dsize=$(du -b /tmp/panel.zip|awk '{print $1}')
 if [ $dsize -lt 10240 ];then
 	echo "获取更新包失败，请稍后更新或联系宝塔运维"
