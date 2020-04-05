@@ -62,7 +62,8 @@ select_node(){
     fi
 
     . $public_file
-   
+
+
 }
 
 get_version(){
@@ -110,6 +111,7 @@ install_python(){
 	if [ "$is_aarch64" != "" ];then
 		os_version=""
 	fi
+	up_plugin=1
 	if [ "${os_version}" != "" ];then
 		pyenv_file="/www/pyenv.tar.gz"
 		wget -O $pyenv_file $download1_Url/6.0/up/pyenv-${os_type}${os_version}-x${is64bit}.tar.gz -T 10
@@ -281,6 +283,17 @@ Get_Versions(){
 			if [ "${os_version}" = "8" ];then
 				os_version=""
 			fi
+			if [ "${is64bit}" = '32' ];then
+				os_version=""
+			fi
+		else
+			if [ "$os_version" = "14" ];then
+				os_version=""
+			fi
+			if [ "$os_version" = "12" ];then
+				os_version=""
+			fi
+
 		fi
 	fi
 }
