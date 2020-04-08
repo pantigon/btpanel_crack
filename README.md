@@ -14,7 +14,7 @@ Usage One Key:
    
    备用：curl https://raw.githubusercontent.com/lhpmain/btpanel_crack/master/bt_7.0.2/update_to_6.sh|bash
 
-3  wget -O install.sh https://raw.githubusercontent.com/lhpmain/btpanel_crack/master/bt_7.0.2/update6_pj.sh && bash install.sh
+3  wget -O install.sh https://raw.githubusercontent.com/lhpmain/btpanel_crack/master/bt_7.0.2/update6.sh && bash install.sh
 
 
 
